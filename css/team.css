@@ -1,0 +1,58 @@
+
+
+.teamcontent {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.briefl h2,.briefr h2,.partyl h2,.partyr h2 {
+	text-align: center;
+}
+
+.partyl,.partyr {
+	width: 840px;
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+}
+
+.briefl,.briefr {
+	text-indent: 0em;
+	width: 400px;
+}
+
+.briefl {
+	float: left;
+}
+
+.briefr {
+	float: right;
+}
+
+.briefl p,.briefr p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.briefall {
+	border-bottom: yellow solid 2px;
+	width: 100%;
+	height: 312px;
+	padding-bottom: 50px;
+}
+
+.partyl_in,.partyr_in {
+	width: 200px;
+	margin: 50px 0px 0px 0px;
+	padding: 0px;
+}
+
+.partyl_in {
+	float: left;
+	margin-right: 40px;
+}
+
+.partyr_in {
+	float: right;
+	margin-left: 40px;
+}

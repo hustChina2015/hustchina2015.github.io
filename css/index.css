@@ -113,3 +113,24 @@ p{
 	padding-left: 120px;
 }
 
+.ackall {
+	margin-top: 5px;
+}
+.individial {
+	width: 70%;
+	height: 280px;
+	margin: auto;
+	padding: 0px;
+}
+.individial_in {
+	width: 50%;
+}
+.individial_in p {
+	text-align: center;
+}
+
+.union {
+	width: 80%;
+	margin: auto;
+	padding: auto;
+}
