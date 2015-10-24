@@ -236,151 +236,55 @@ p {
     
 /*nav only in design*/
 #littlenav {
-	width: 205px;
-	height: 31px;
-	margin: 0;
-    padding: 0;
+	width: 400px;
+	margin-left: 12%;
+    padding: auto;
     list-style: none;
     text-align: left;
-    font-family: Arial,Helvetica,sans-serif;
-    position: fixed;
-    left: 30px;
-    bottom: 338px;
-    z-index: 999;
-
+    color: #4b8dc9;
 }
 
 #littlenav li {
 	list-style-type:none;
+
 }
 
-#littlenav .lnav1 {
-	background-color: #5353b7;
-	width: 100%;
-    padding: 0;
-    margin: 0 0 7px 0;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.33333;
-    color: #ffffff;
-    ;
-}
 
 #littlenav .lnav2 {
-	background-color: #4b8dc9;
 	width: 100%;
     padding: 0;
     margin: 0 0 7px 0;
     font-size: 10px;
-    font-weight: normal;
-    line-height: 1.33333;
-    color: #ffffff;
-    ;
+    font-weight: bold;
+    color: ;
 }
 
-#littlenav .lnav3 {
-	background-color: #6abb64;
-	width: 100%;
-    padding: 0;
-    margin: 0 0 7px 0;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.33333;
-    color: #ffffff;
-    ;
-}
 
-#littlenav .lnav4 {
-	background-color: #df990b;
-	width: 100%;
-    padding: 0;
-    margin: 0 0 7px 0;
-    font-size: 10px;
-    font-weight: normal;
-    line-height: 1.33333;
-    color: #ffffff;
-    ;
-}
+
 
 #littlenav .lnav5 {
 	background-color: #ffffff;
 	width: 100%;
-    padding: 0;
-    margin: 0 0 7px 0;
+    padding:0px 0px 0px 20px;
+    margin: 0;
     font-size: 7px;
     font-weight: normal;
-    line-height: 0.533333;
     color: #ae0e0e;
     ;
 }
-
-
-
-#littlenav .lnav1 {
-	display: block;
-    position: relative;
-    z-index: 3;
-    padding: 8px;
-    color: #ffffff;
-    text-decoration: none;
+#littlenav ul {
+	margin: auto;
+	padding: auto;
 }
 
-#littlenav .lnav2 {
-	display: block;
-    position: relative;
-    z-index: 3;
-    padding: 8px;
-    color: #ffffff;
-    text-decoration: none;
-}
 
-#littlenav .lnav3 {
-	display: block;
-    position: relative;
-    z-index: 3;
-    padding: 8px;
-    color: #ffffff;
-    text-decoration: none;
-}
 
-#littlenav .lnav4 {
-	display: block;
-    position: relative;
-    z-index: 3;
-    padding: 8px;
-    color: #ffffff;
-    text-decoration: none;
-}
-#littlenav .lnav5 a {
-	display: block;
-    position: relative;
-    z-index: 3;
-    border: 2px solid #e9e9e9;
-    padding: 6px;
-    color: #ae0e0e;
-    text-decoration: none;
-}
 
 
 
 
 #littlenav li a:link {color: inherit;}
 #littlenav li a:visited {color: inherit;}
-#littlenav li a:hover {color: yellow;}
+#littlenav li a:hover {text-decoration: underline;}
 #littlenav li a:active {color: inherit;}
-
-#littlenav .lnav5 a:link {color: inherit;}
-#littlenav .lnav5 a:visited {color: inherit;}
-#littlenav .lnav5 a:hover {background: #e9e9e9; color: inherit;}
-#littlenav .lnav5 a:active {color: inherit;}
-
-#littlenav .lnav6 a:link {color: inherit;}
-#littlenav .lnav6 a:visited {color: inherit;}
-#littlenav .lnav6 a:hover {background: #e9e9e9; color: inherit;}
-#littlenav .lnav6 a:active {color: inherit;}
-
-#littlenav .lnav7 a:link {color: inherit;}
-#littlenav .lnav7 a:visited {color: inherit;}
-#littlenav .lnav7 a:hover {background: #e9e9e9; color: inherit;}
-#littlenav .lnav7 a:active {color: inherit;}
 

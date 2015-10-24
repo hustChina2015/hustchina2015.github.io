@@ -27,23 +27,7 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 	var root = document.getElementsByTagName('html')[0];
 	root.setAttribute('class', 'ff');
 };
-function show() {
-	var showx=document.getElementById('tag333').offsetWidth;
-	var control=document.getElementById('littlenav');
-	if (showx<900) {
-		control.style.display="none";
-	}
-	if (showx>900) {
-		setTimeout("show2()", 5000);
-	}
-}
 
-function show2() {
-	var control=document.getElementById('littlenav');
-	control.style.display="block";
-}
-
-setInterval("show()",500);
 </script>
 </head>
 
@@ -60,22 +44,6 @@ setInterval("show()",500);
 			<div class="pattern pattern--hidden"></div>
 			<!-- cards -->
 			<div class="wrapper">
-				<div id="littlenav" >
-					<ul>
-						<li class="lnav2"><a href="#Fingers/Tweezers">1 Fingers/Tweezers</a></li>
-						<li class="lnav5"><a href="#Tweezer-like Structure">1.1 Tweezer-like Structure</a></li>
-						<li class="lnav5"><a href="#FRET">1.2 FRET</a></li>
-						<li class="lnav5"><a href="#Aptamers and Proteins">1.3 Aptamers and Proteins</a></li>
-						<li class="lnav2"><a href="#Nanofingers">2 Nanofingers</a></li>
-						<li class="lnav5" style="line-height:0.9999;"><a href="#Linkage of tweezers and platform">2.1 Linkage of tweezers and platform</a></li>
-						<li class="lnav2"><a href="#Regulation of proteins">3 Regulation of proteins</a></li>
-						<li class="lnav5"><a href="#Regulation of homeostasis">3.1 Regulation of homeostasis</a></li>
-						<li class="lnav5"><a href="#High efficiency">3.2 High efficiency</a></li>
-						<li class="lnav5"><a href="#General system theory">3.3 General system theory</a></li>
-						<li class="lnav2"><a href="#Vulcan salute">4 Vulcan salute</a></li>
-
-					</ul>
-				</div>
 				<div class="card">
 					<div class="card__container card__container--closed">
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
@@ -90,7 +58,7 @@ setInterval("show()",500);
 							<a name="top" id="top1"></a>
 							<div class="card__btn-close"><img src="images/back.png"></div>
 							<div class="card__caption">
-								<h1 class="card__title f25 txtcenter">Goal</h2>
+								<h1 class="card__title txtcenter">Goal</h2>
 							</div>
 							<div class="card__copy">
 								<p>The basic goal of our project is to fabricate a device aiming to regulate a physiological process and help it recover to a stable state. The detailed steps are introduced as follows:</p>
@@ -135,10 +103,28 @@ setInterval("show()",500);
 							<a name="top" id="top2"></a>
 							<div class="card__btn-close"><img src="images/back.png"></div>
 							<div class="card__caption">
-								<h1 class="card__title txtshadowblackL f3 txtcenter">Design</h1>
+								<h1 class="card__title txtshadowblackL txtcenter">Design</h1>
 							</div>
 							
 								<div class="card__copy">
+								<p style="margin:0px;text-indent:0;font-size:30px;font-weight:600;">Content</p>
+								<div id="littlenav" class="center">
+									
+									<ul class="center">
+										<li class="lnav2"><a href="#Fingers/Tweezers">1 Fingers/Tweezers</a></li>
+										<li class="lnav5"><a href="#Tweezer-like Structure">  1.1 Tweezer-like Structure</a></li>
+										<li class="lnav5"><a href="#FRET">  1.2 FRET</a></li>
+										<li class="lnav5"><a href="#Aptamers and Proteins">  1.3 Aptamers and Proteins</a></li>
+										<li class="lnav2"><a href="#Nanofingers">2 Nanofingers</a></li>
+										<li class="lnav5" style="line-height:0.9999;"><a href="#Linkage of tweezers and platform">  2.1 Linkage of tweezers and platform</a></li>
+										<li class="lnav2"><a href="#Regulation of proteins">3 Regulation of proteins</a></li>
+										<li class="lnav5"><a href="#Regulation of homeostasis">  3.1 Regulation of homeostasis</a></li>
+										<li class="lnav5"><a href="#High efficiency">  3.2 High efficiency</a></li>
+										<li class="lnav5"><a href="#General system theory">  3.3 General system theory</a></li>
+										<li class="lnav2"><a href="#Vulcan salute">4 Vulcan salute</a></li>
+
+									</ul>
+								</div>
 								<p>As is illustrated in Figure1, Nanofingers is devised to regulate two related proteins in vivo. The homeostasis requires the organism to control a physiological process at least from two aspects, promoting it and inhibiting it. Regulation from these two aspects simultaneously can lead to an amplified influence on the process. When we get injured, a signal will be released and identified by Nanofingers. Triggered by the signal, Nanofingers starts to release proteins helping to coagulate blood and through a linkage DNA strand, the nearby structures change their conformation to capture proteins involved in blood dissolution. The proteins we use are thrombin and hirudin respectively. The efficiency of blood coagulation is highly increased and the organism can soon recover to its homeostasis. The basic structures of our device are introduced as follows.</p>
 								<div class="note">
 									<img src="images/projectpic1.gif" alt="" />
@@ -218,7 +204,7 @@ setInterval("show()",500);
 	</div>
 	<nav id="mm-menu" class="mm-menu">
 	  <div class="mm-menu__header">
-	    <h2 class="mm-menu__title"></h2>
+	    <h2 class="mm-menu__title"></h2><div style="position:absolute;right:45px;top:-10px;"><img src="images/logo2.png"></div>
 	  </div>
 	  <ul class="mm-menu__items">
 	  	<li class="mm-menu__item">
@@ -242,12 +228,12 @@ setInterval("show()",500);
 	      </a>
 	    </li>
 	    <li class="mm-menu__item">
-	      <a class="mm-menu__link" href="page.html">
+	      <a class="mm-menu__link" href="page3.html">
 	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Experiment</span>
 	      </a>
 	    </li>
 	    <li class="mm-menu__item">
-	      <a class="mm-menu__link" href="page.html">
+	      <a class="mm-menu__link" href="page4.html">
 	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
 	      </a>
 	    </li>
@@ -272,20 +258,6 @@ setInterval("show()",500);
 	<script type="text/javascript" src="js/Card-polygon.js"></script>
 	<script type="text/javascript" src="js/demo-3.js"></script>
 	<script src="js/production/materialMenu.min.js"></script>
-<script type="text/javascript">
-.card__btn-close=function mouseOver()
-{
-document.b1.src ="images/back.png"
-}
-function mouseOut()
-{
-document.b1.src ="images/totop.png"
-}
-
-
-</script>
-	
-	
 	<script>
 	  var menu = new Menu;
 	</script>
