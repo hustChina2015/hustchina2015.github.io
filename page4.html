@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Expansion Effect - Demo 3</title>
+<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+<meta name="author" content="Claudio Calautti for Codrops" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<!--必要样式-->
+<link rel="stylesheet" href="css/styleformenu.css">
+<link rel="stylesheet" type="text/css" href="css/card.css" />
+<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+<link rel="Stylesheet" type="text/css" href="css/xo.css" />
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+	var root = document.getElementsByTagName('html')[0];
+	root.setAttribute('class', 'ff');
+};
+</script>
+</head>
+
+<body class="demo-3">
+	<div id="wrapper" class="wrapper">
+	<div id="headline1">
+		
+	</div>
+	<header>Here should have a big title!</header>
+	<div class="container">
+
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="images/b.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top"></a>
+							<div class="card__btn-close"><img src="images/jupai2.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title leaguegothic txtshadowblackL f3 txtcenter">First title</h2>
+							</div>
+							<div class="card__copy">
+								<div class="leaguegothic txtshadowblackL f2 txtdecoration1">second title</div>
+								<p>In the theory of traditional Chinese medicine, “yin and yang” is thought of the origin of the world, and only when they are kept in a good balance, can the organism work well. For us human body, metabolism, such as signal conduction, cell apoptosis and immune reactions ,need to be strictly controlled and proteins have been known to play an important role among these processes.</p>
+								<p>In fact, we can just regard the different kinds of proteins as “yin and yang”, since proteins can be categorized into two types, promotor and inhibitor, based on their function to a specific reaction. </p>
+							</div>
+							<div class="totop">
+								<a href="#top" target="_self"><img src="images/jupai3.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath3">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath3)" width="1920" height="500" xlink:href="images/c.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top"></a>
+							<div class="card__btn-close"><img src="images/jupai2.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title leaguegothic txtshadowblackL f3 txtcenter">First title</h2>
+							</div>
+							<div class="card__copy">
+								<!--<div class="meta">
+									<img class="meta__avatar" src="images/authors/3.png" alt="author03" />
+									<span class="meta__author">Sarah Lester</span>
+									<span class="meta__date">06/16/2015</span>
+								</div>-->
+								<div class="leaguegothic txtshadowblackL f2 txtdecoration1">second title</div>
+								<p>The balance of the proteins can be regulated by ourselves smartly; however, it can also be easily broken by inside or outside unexpected changes, which is difficult to recover to normal state automatically, especially for the old people. So we hope to create a device to help the metabolism recover to stable stage by regulating the two kinds of proteins.</p>
+							</div>
+							<div class="totop">
+								<a href="#top" target="_self"><img src="images/jupai3.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath4">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="images/d.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top"></a>
+							<div class="card__btn-close"><img src="images/jupai2.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title leaguegothic txtshadowblackL f3 txtcenter">First title</h2>
+							</div>
+							<div class="card__copy">
+								<!--<div class="meta">
+									<img class="meta__avatar" src="images/authors/4.png" alt="author04" />
+									<span class="meta__author">Lena Bestofos</span>
+									<span class="meta__date">06/14/2015</span>
+								</div>-->
+								<div class="leaguegothic txtshadowblackL f2 txtdecoration1">second title</div>
+								<p>Generally speaking, we get two ways to regulate the protein, one by changing the activity, the other by changing the quantity, and we choose the second one. When searching for the references, we are inspired by a tweezer-like machine, which catches the protein through by the aptamer on it, which means that the tweezer will capture the target protein when it is closed, and release the protein in its open-conformation.</p>
+								<div class="note">
+									<img src="images/ideaPic1.png" alt="Reversible Regulation of Protein Binding Affinity by a DNA Machine" />
+									<p>Figure 1 Reversible Regulation of Protein Binding Affinity by a DNA Machine</p>
+								</div>
+								<p>However, we are not satisfied that only one protein being regulated. Combining three tweezers together, our new born device can be much more powerful.</p>
+								<p>We bring the thought “Pair of Proteins” into our device, one is promoting protein and one is inhibiting protein for one chemical reaction. And we categorize the three tweezers into two kinds, two A tweezers at side and one B tweezer in the middle. The aptamer on A tweezer only matches the promoting protein, and B tweezer can only bind the inhibiting protein. We are able to keep A and B always in different conformation, that is when two A tweezers close, they will capture the two matched proteins, and make B open, releasing one inhibiting protein, hence the chemical reaction is accelerated. If you want to stop the reaction, just make two A open and B closed by adding a signal, then two promoting protein will be grasped and the inhibiting protein is free, as a result, the reaction will stop or go towards an direction. Besides, because we change the quantity of three proteins with one signal, we succeed in equipping our device with the function of amplifying the signal.</p>
+								<p>In our project, we choose thrombin and hirudin as our “Pair of Proteins”, and they can cooperatively make great contributions to blood coagulation. When someone is bleeding, especially for those who are bleeding heavily, our device can help to coagulate blood by releasing thrombin and capturing hirudin, at the same time thus enhance the velocity of blood coagulation to a great extent. In a word, we just want to make human beings live a better life with our metabolism-regulating device.</p>
+								<p>Finally, for one of the conformations is like Vulcan salute gesture, we may the best wished to you, live long and prosper! </p>
+							</div>
+							<div class="totop">
+								<a href="#top" target="_self"><img src="images/jupai3.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+		</div><!-- /content -->
+
+	</div>
+	</div>
+	<!-- /container -->
+
+</div>
+
+	<div id="big">
+		<button id="mm-menu-toggle" class="mm-menu-toggle"></button>
+		<div id="small"><p>M</p><p id="ssse">E</p><p>N</p><p>U</p></div>
+
+	</div>
+	<nav id="mm-menu" class="mm-menu">
+	  <div class="mm-menu__header">
+	    <h2 class="mm-menu__title"></h2>
+	  </div>
+	  <ul class="mm-menu__items">
+	  	<li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"></span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Home</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page1.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Idea</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page2.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Project</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Experiment</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page5.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Discussion</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page6.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Team</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav><!-- /nav -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/vendors/trianglify.min.js"></script>
+	<script type="text/javascript" src="js/vendors/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="js/vendors/cash.min.js"></script>
+	<script type="text/javascript" src="js/Card-polygon.js"></script>
+	<script type="text/javascript" src="js/demo-3.js"></script>
+	<script src="js/production/materialMenu.min.js"></script>
+
+	
+	
+	<script>
+	  var menu = new Menu;
+	</script>
+
+</body>
+</html>

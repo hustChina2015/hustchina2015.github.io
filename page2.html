@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project</title>
+<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+<meta name="author" content="Claudio Calautti for Codrops" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<!--必要样式-->
+<link rel="stylesheet" href="css/styleformenu.css">
+<link rel="stylesheet" type="text/css" href="css/card.css" />
+<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+<link rel="Stylesheet" type="text/css" href="css/xo.css" />
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+	var root = document.getElementsByTagName('html')[0];
+	root.setAttribute('class', 'ff');
+};
+function show() {
+	var showx=document.getElementById('tag333').offsetWidth;
+	var control=document.getElementById('littlenav');
+	if (showx<900) {
+		control.style.display="none";
+	}
+	if (showx>900) {
+		setTimeout("show2()", 5000);
+	}
+}
+
+function show2() {
+	var control=document.getElementById('littlenav');
+	control.style.display="block";
+}
+
+setInterval("show()",500);
+</script>
+</head>
+
+<body class="demo-3">
+	<div id="wrapper" class="wrapper">
+	<div id="headline1">
+		
+	</div>
+	<header>Project</header>
+	<div class="container">
+
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div id="littlenav" >
+					<ul>
+						<li class="lnav2"><a href="#Fingers/Tweezers">1 Fingers/Tweezers</a></li>
+						<li class="lnav5"><a href="#Tweezer-like Structure">1.1 Tweezer-like Structure</a></li>
+						<li class="lnav5"><a href="#FRET">1.2 FRET</a></li>
+						<li class="lnav5"><a href="#Aptamers and Proteins">1.3 Aptamers and Proteins</a></li>
+						<li class="lnav2"><a href="#Nanofingers">2 Nanofingers</a></li>
+						<li class="lnav5" style="line-height:0.9999;"><a href="#Linkage of tweezers and platform">2.1 Linkage of tweezers and platform</a></li>
+						<li class="lnav2"><a href="#Regulation of proteins">3 Regulation of proteins</a></li>
+						<li class="lnav5"><a href="#Regulation of homeostasis">3.1 Regulation of homeostasis</a></li>
+						<li class="lnav5"><a href="#High efficiency">3.2 High efficiency</a></li>
+						<li class="lnav5"><a href="#General system theory">3.3 General system theory</a></li>
+						<li class="lnav2"><a href="#Vulcan salute">4 Vulcan salute</a></li>
+
+					</ul>
+				</div>
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath1">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath1)" width="1920" height="500" xlink:href="images/a.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top1"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title f25 txtcenter">Goal</h2>
+							</div>
+							<div class="card__copy">
+								<p>The basic goal of our project is to fabricate a device aiming to regulate a physiological process and help it recover to a stable state. The detailed steps are introduced as follows:</p>
+								<div class="note">
+									<img src="images/goalpic1.jpg" alt="A simple view of our goal and experiment." />
+									<p>Figure 1. A simple view of our goal and experiment.</p>
+								</div>
+								
+								<div class="fw9 f1">1.Structure Fabrication</div>
+								<p>To construct our device, Nanofingers, we will utilize the software, CADnano, for the structural design. Through an origami experiment which is a slowly anneal process, we can eventually get our device. The correctively assembled Nanofingers will be proved by TEM and AFM.</p>
+
+								<div class="fw9 f1">2.Fluorescent Detection</div>
+								<p>To verify the form change, we will attach fluorophores (Cy3 and Cy5) to the two arms of tweezers A. The variation of the fluorescent intensity demonstrates that Nanofingers functions well to change its form in response to an ssDNA signal.</p>
+
+								<div class="fw9 f1">3.Protein Regulation</div>
+								<p>To check the function of capturing a protein, we will compare the two conditions, which are with and without a captured protein on Nanofingers. An electrophoresis is adopted and there will be an obvious difference in migration speed between the two conditions, suggesting Nanofingers successfully captures our target proteins.</p>
+
+								<div class="fw9 f1">4. Function Realization</div>
+								<p>To reveal the influence Nanofingers exerts to the proteins, we will analyze the function qualitatively and quantitatively to give a vivid view on its effectiveness.</p>
+								<div class="fw9 f1">4.1 Qualitative Analysis</div>
+								<p>To prove that Nanofingers can actually reduce the activity of the captured protein. We will measure the clotting time since the protein we use in practice is thrombin which plays a role in blood coagulation. The time is expected to be increased due to the appearance of Nanofingers.</p>
+								<div class="fw9 f1">4.2 Quantitative Analysis</div>
+								<p>Enzyme activity assay is conducted to quantitatively indicate the variation of the enzyme’s activity.</p>
+								<div class="totop"><a href="#top1" target="_self"><img src="images/totop.png"></a></div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="images/c.jpg"></image>
+						</svg>
+						<div class="card__content"  id="tag333">	
+							<a name="top" id="top2"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title txtshadowblackL f3 txtcenter">Design</h1>
+							</div>
+							
+								<div class="card__copy">
+								<p>As is illustrated in Figure1, Nanofingers is devised to regulate two related proteins in vivo. The homeostasis requires the organism to control a physiological process at least from two aspects, promoting it and inhibiting it. Regulation from these two aspects simultaneously can lead to an amplified influence on the process. When we get injured, a signal will be released and identified by Nanofingers. Triggered by the signal, Nanofingers starts to release proteins helping to coagulate blood and through a linkage DNA strand, the nearby structures change their conformation to capture proteins involved in blood dissolution. The proteins we use are thrombin and hirudin respectively. The efficiency of blood coagulation is highly increased and the organism can soon recover to its homeostasis. The basic structures of our device are introduced as follows.</p>
+								<div class="note">
+									<img src="images/projectpic1.gif" alt="" />
+									<p class="txtcenter">Figure 1. Nanofingers regulates “Pairs of proteins”.</p>
+								</div>
+								<div class="f2" id="Fingers/Tweezers">1 Fingers/Tweezers</div>
+								<div class="f1" id="Tweezer-like Structure">1.1 Tweezer-like Structure</div>
+								<p>The main constituents of our device are three tweezer-like structures which can be categorized into two types, tweezer A and tweezer B (figure 2c). Two DNA double crossover (DX) motifs are joined by a Holliday junction to form a tweezer-like DNA machine (figure 2a). Two kinds of aptamers are linked at the end of it to specifically bind two different parts of a protein. When the two aptamers are placed in a close distance, they show a cooperative effect, resulting in a significant enhancement of binding affinity and specificity to the protein. A DNA motor is incorporated into the middle of a tweezer, which can cycle between stem-loop and double helix structures driven by a strand-displacement reaction and it works to adjust the distance between the arms of these DNA tweezers. Two different ssDNA/ssRNA involved in the cycle are considered as two kinds of signal and can trigger the form change of the tweezers. Two aptamers hence approach with each other and become able to capture the target protein. In contrary, when the two aptamers are separated, the protein will be released (figure 2b). The biggest differences between the two types of tweezers are that tweezer B is equipped with a DNA motor but has no aptamer while tweezer A has aptamers without DNA motor (figure2c). According to our design, tweezer B is regarded as an activator and tweezers A are responders. Nanofingers is the machine that brings them together.</p>
+								<div class="note">
+									<img src="images/projectpic2.jpg" alt="" />
+									<p>Figure 2. a (Left): The design of DNA tweezers. a (right): The Holiday junction of tweezers. b: Schematic illustration of reversible regulation of target binding affinity by the DNA tweezers. c: There are two types of tweezers, A and B. Here we show the differences between them.</p>
+								</div>
+								<div class="f1" id="FRET">1.2 FRET</div>
+								<p>As designed, the open and closed conformation of the DNA machine should induce a significant change in the distance between the ends of the two arms, and this can be verified by Forster resonance energy transfer (FRET). To demonstrate that tweezer B can be activated by signal “fuel & antifuel” and change the conformation of tweezers A, we add two fluorophores to the two arms of tweezers A. They can show different fluorescence intensity in the two states, which is caused by FRET. As shown in Figure 3, the two arms of tweezers A are modified with fluorophores at their ends, one with Cy3 (donor) and the other with Cy5 (acceptor). Besides, the binding sites of fluorophores have been accurately calculated to lead to an efficient FRET when tweezers A are in the closed state.</p>
+								<div class="note">
+									<img src="images/projectpic3.jpg" alt="" />
+									<p>Figure 3. DNA tweezers A with fluorophores.</p>
+								</div>
+
+								<div class="f1" id="Aptamers and Proteins">1.3 Aptamers and Proteins</div>
+								<p>In the real wet lab experiment, we choose bovine thrombin as the model object to demonstrate the ability of our DNA machine to regulate two related proteins. According to the literature, aptamer A (apt-A: 29mer, 5’-AGT CCG TGG TAG GGC AGG TTG GGG TGA CT-3’) and aptamer B (apt-B: 15mer, 5’-GGT TGG TGT GGT TGG-3’) can be used in this tweezer-like structure and achieve the function as expected. So when the tweezer is in the closed state, two aptamers will be kept 4-6 nm apart as designed, and with a distance-dependent bivalent interaction, the tweezer can strongly bind thrombin. When in the open state, this interaction will disappear in terms of the distance between aptamers, and thrombin will be released (figure 4). We design the two aptamers for tweezers A to capture and release thrombin. Unfortunately, there are no aptamer records about hirudin, but it’s enough to demonstrate the feasibility of our project by just applying thrombin.</p>
+								<div class="note">
+									<img src="images/projectpic4.jpg" alt="" />
+									<p>Figure 4. Reversible regulation of target binding affinity by the DNA tweezers</p>
+								</div>
+								<div class="f2" id="Nanofingers">2 Nanofingers</div>
+								<div class="f1" id="Linkage of tweezers and platform">2.1 Linkage of tweezers and platform</div>
+								<p>Inspired by the idea that managing different kinds of proteins can sustain physiological homeostasis to the utmost, here we design a linkage structure between each pair of tweezers which can regulate different proteins separately. To take full advantage of the tweezer-like structure, a DNA strand is used to link the two arms of the different tweezers. Tweezers A are specifically bound to thrombin. At the same time, the most noticeable difference between tweezers A and tweezer B is that, tweezer B can be controlled by special DNA signal as “fuel and antifuel” but tweezers A can’t. In this case, in response to the signal, tweezer B can switch from open state to closed state, which leads to an opposite effect of making tweezers A open by the linkage. So, in this process, different types of proteins can be regulated by tweezers A and tweezer B simultaneously. In this project, we apply the thrombin. However, we strongly recommend other “Pairs of proteins”, for instance, insulin & glucagon.</p>
+								<div class="note">
+									<img src="images/projectpic5.png" alt="" />
+									<p>Figure 5. DNA origami is designed by cadnano.</p>
+								</div>
+								<p>In our project strategies, we have demonstrated that a fixed platform is needed for the tweezers A and tweezer B to keep in different states and provide a switch pivot point. So, we use cadnano for our DNA origami platform design (figure 5), and use the CANDO to test the stability of this structure. The structure can be simplified as the model, in which the tweezers are ranked as “ABA”. Meanwhile, to achieve a high stability and keep in correct conformation, one arm of tweezers A is made up of a part of the fixed platform (figure 6).</p>
+								<div class="note">
+									<img src="images/projectpic6.jpg" alt="" />
+									<p>Figure 6. A fixed DNA platform stabilizes the tweezers. The tweezer in green is tweezer B, and tweezers A stand at two sides.</p>
+								</div>
+								<div class="f2" id="Regulation of proteins">3 Regulation of proteins</div>
+								<div class="f1" id="Regulation of homeostasis">3.1 Regulation of homeostasis</div>
+								<p>With the function of regulating different proteins, Nanofingers has been demonstrated that it can be applied to regulate the concentration of thrombin to keep our body in homeostasis. There are some reactions we can take advantages of, as a specific DNA or RNA signal can be produced when we are bleeding. And in response to this signal, Nanofingers can change its conformation to operate automatically to release thrombin, which accelerates the blood coagulation (Figure 7). Once the coagulation is finished, Nanofingers will capture thrombin in response to another specific DNA or RNA signal, and it is a good way to avoid thrombus. </p>
+								<div class="note">
+									<img src="images/projectpic7.png" alt="" />
+									<p>Figure 7. Nanofingers releases thrombin and helps accelerate blood coagulation</p>
+								</div>
+								<div class="f1" id="High efficiency">3.2 High efficiency</div>
+								<p>In this regulation system of Nanofingers, we can simultaneously regulate a physiological process from two aspects and remarkably enhance the regulation ability. Since we adjust the concentration of three proteins with one signal by our nanofingers, it means a lot to regulate the metabolic reaction more effectively.</p>
+								<div class="f1" id="General system theory">3.3 General system theory</div>
+								<p>We also want to explain this strategy from a very logical aspect. Here we employ the general system theory to demonstrate the vast application prospect of Nanofingers (Figure 8). As we have referred, insulin & glucagon can also be used.</p>
+								<div class="note">
+									<img src="images/projectpic8.png" alt="" />
+									<p>Figure 8. The general system theory illustrates the important role of Nanofingers in sustaining the homeostasis.</p>
+								</div>
+								<div class="f2" id="Vulcan salute">4 Vulcan salute</div>
+								<p>In the course of designing the structure of Nanofingers, we noticed that it features like the Vulcan salute when tweezers A are closed and tweezer B is open. The Vulcan salute is shown as double-fingered version of victory sign, which originates from Star Trek with the meaning of blessing for "Live long and prosper". Nanofingers is our Vulcan salute to all the world, expressing the best wishes “Live long and prosper”.</p>
+								<div class="totop"><a href="#top2" target="_self"><img src="images/totop.png"></a></div>
+							</div>
+							
+						</div>
+
+						</div>
+					</div>
+				</div>
+
+				
+		</div><!-- /content -->
+
+	</div>
+	</div>
+	<!-- /container -->
+
+</div>
+
+	<div id="big">
+		<button id="mm-menu-toggle" class="mm-menu-toggle"></button>
+		<div id="small"><p>M</p><p id="ssse">E</p><p>N</p><p>U</p></div>
+
+	</div>
+	<nav id="mm-menu" class="mm-menu">
+	  <div class="mm-menu__header">
+	    <h2 class="mm-menu__title"></h2>
+	  </div>
+	  <ul class="mm-menu__items">
+	  	<li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"></span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Home</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page1.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Idea</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page2.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Project</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Experiment</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page5.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Discussion</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page6.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Team</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav><!-- /nav -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/vendors/trianglify.min.js"></script>
+	<script type="text/javascript" src="js/vendors/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="js/vendors/cash.min.js"></script>
+	<script type="text/javascript" src="js/Card-polygon.js"></script>
+	<script type="text/javascript" src="js/demo-3.js"></script>
+	<script src="js/production/materialMenu.min.js"></script>
+<script type="text/javascript">
+.card__btn-close=function mouseOver()
+{
+document.b1.src ="images/back.png"
+}
+function mouseOut()
+{
+document.b1.src ="images/totop.png"
+}
+
+
+</script>
+	
+	
+	<script>
+	  var menu = new Menu;
+	</script>
+
+</body>
+</html>

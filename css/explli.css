@@ -1,0 +1,16 @@
+table {
+	border-collapse: collapse;
+	text-align: left;
+	border:1px solid #000;
+	width: 700px!important;
+}
+
+.table {
+	width: 700px;
+}
+
+th {
+	width: 300px!important;
+	border:1px solid #000;
+	text-align: left;
+}

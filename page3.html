@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experiment</title>
+<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+<meta name="author" content="Claudio Calautti for Codrops" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<!--必要样式-->
+<link rel="stylesheet" href="css/styleformenu.css">
+<link rel="Stylesheet" type="text/css" href="css/xo.css" />
+<link rel="stylesheet" type="text/css" href="css/card.css" />
+<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+<link rel="stylesheet" type="text/css" href="css/explli.css" />
+
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="demo-3">
+	<div id="wrapper" class="wrapper">
+	<div id="headline1">
+		
+	</div>
+	<header>Experiment</header>
+	<div class="container">
+
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="images/b.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top1"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title f25 txtcenter">Materials</h2>
+							</div>
+							<div class="card__copy">
+								<a name="top" id="top1"></a>
+								<div class="fw9 f1">1.Origami</div>
+								<div class="fw9 f1">1.1 About Tweezer A</div>
+								<div class="note">
+									<img src="images/materialspic1.png" alt="">
+									<p><span class="green">Green:</span>Modified with Cy3</p>
+									<p><span class="yellow">Yellow:</span>Modified with Cy5</p>
+									<p><span class="blue">Blue:</span>The hairpin of tweezers A</p>
+								</div>
+								<div class="fw9 f1">1.2 About Tweezer B</div>
+								<div class="note">
+									<img src="images/materialspic2.png" alt="">
+										<p><span class="blue">Blue:</span>The hairpin of B8</p>
+										<p><span class="red">Red:</span>The complementary sequence of the hairpin</p>
+								</div>
+								
+								<div class="fw9 f1">1.3 The link</div>
+								<div class="note">
+									<img src="images/materialspic3.png" alt="">
+									<p><span class="green">Green:</span>The link between of tweezers A and tweezer B</p>
+									<p><span class="yellow">Yellow:</span>The link between tweezer B and the platform </p>
+								</div>
+
+								<div class="fw9 f1">2.Reagents</div>
+								<p>10x TE buffer    50x TAE buffer    IPTG    X-Gal    1.5% agarose gel   fibrinogen  LB medium  10x folding buffer    10x PBS   1x TAE-Mg2+ buffer    E.Z.N.A.® M13 DNA Mini Kit    bovine thrombin (0.5U/uL)  </p>
+
+								<div class="fw9 f1">3.Attachment</div>
+								<ul style="list-style-type:none">
+									<li>1)	<span class="fw7">10 x TE buffer：</span>100 ml 1M Tris-HCl (pH 7.5 or 8.0) and 20 ml 0.5M EDTA (pH 8.0), then, add ddH2O to 1L. </li>
+									<li>2)	<span class="fw7">50 x TAE buffer：</span> 242g Tris-base, 57.1 ml Acetate (100% acetic acid) and 100 ml 0.5M sodium EDTA, then add ddH2O up to 1L.</li>
+									<li>3)	<span class="fw7">IPTG：</span> Dissolve 238mg IPTG (sigma I-6758) in 10ml deionized water, store at -20°C.</li>
+									<li>4)<span class="fw7">X-Gal</span>(20mg/ml): Dissolve 2g X-Gal in 100ml DMF, store at -20℃</li>
+									<li>5)	<span class="fw7">1.5% agarose gel</span> Dissolve 0.3g agarose in 20ml 1x TAE buffer, heat the solution till agarose is completely dissolved, then add 20ul Ethidium bromide (V(EB):V(TAE)=1:1000) into the TAE buffer when it cools down around 60 ℃.</li>
+									<li>6)	<span class="fw7">Fibrinogen solution</span>Dissolve 6.2mg fibrinogen in 1ml 0.9% NaCl. </li>
+									<li>7)	<span class="fw7">LB medium</span>： combine the following:
+										<div class="note">
+											<img src="images/materialspic4.png" alt="">
+										</div>
+									</li>
+									<li>8)	<span class="fw7">10x folding buffer(pH=8.0):</span>： 
+										<div class="note">
+											<img src="images/materialspic5.png" alt="">
+										</div>
+									</li>
+									<li>9)	<span class="fw7">9)	10x PBS（pH=7.4）</span>：
+										<div class="note">
+											<img src="images/materialspic6.png" alt="">
+										</div>
+									</li>
+									<li>10)	<span class="fw7">	1xTAE-Mg2+ buffer（pH=8.0）</span>：
+										<div class="note">
+											<img src="images/materialspic7.png" alt="">
+										<p>Mix reagents above, and store it at 4℃</p>
+										</div>
+									</li>
+									<li>11)	<span class="fw7">E.Z.N.A.® M13 DNA Mini Kit</span>
+										<div class="note">
+											<img src="images/exppic1.jpg" alt="The instructions of E.Z.N.A.® M13 DNA Mini Kit">
+											<p class="txtcenter">Figure 1. The instructions of E.Z.N.A.® M13 DNA Mini Kit</p>
+										</div>
+									</li>
+
+									<li>
+										12)	<span class="fw7">Omega Bio-tek’s E.Z.N.A.® M13 DNA Kits：</span>It is designed to purify up to 10μg of single-stranded DNA from up to 3mL of phage supernatant. Yields of single-stranded DNA obtained using E.Z.N.A.® M13 DNA Kits are around 3-10μg and reproducible when the isolations are performed from the same culture.
+									</li>
+								</ul>
+
+								
+								<div class="totop"><a href="#top1" target="_self"><img src="images/totop.png"></a></div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath4">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="images/d.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top3"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title f25 txtcenter">Project Idea</h2>
+							</div>
+							<div class="card__copy">
+								<!--<div class="meta">
+									<img class="meta__avatar" src="images/authors/4.png" alt="author04" />
+									<span class="meta__author">Lena Bestofos</span>
+									<span class="meta__date">06/14/2015</span>
+								</div>-->
+								<p>Generally speaking, there are two ways to regulate the proteins, changing activity or quantity, and we choose the latter. Concerning the former work on this field, we find a tweezer-like DNA machine catching proteins by using aptamers. It shows that tweezers can capture the target protein at closed mode, and release the protein when open.</p>
+								<p>However, regulating one protein only cannot keep the “yin-yang” balance, we need to improve it into two directions, and our newborn device can be much more powerful.</p>
+								<div class="note">
+									<img src="images/ideapic3.png" alt="The combination of three tweezers（Two blue tweezers are called tweezer A, and the green tweezer B ）" />
+									<p>Figure 3. The combination of three tweezers（Two blue tweezers are called tweezer A, and the green tweezer B ）</p>
+								</div>
+								<p>First, we bring the thought “Pair of Proteins” into our device--the promoting protein and the inhibiting protein in a same biochemical reaction. Then we categorize the three tweezers into two kinds, two same tweezers (named A) on the either side of the platform and one tweezer (named B) in the middle. The aptamers on tweezers A only match the promoting protein and tweezer B can only bind the inhibiting protein. We are able to keep A and B always in different conformation, that is when two tweezers A open, they will release the two promoting proteins and make B close, capturing one inhibiting protein, hence the biochemical reaction is accelerated. When we want to stop the reaction, just make A close and B open by adding a signal, then two promoting protein will be grasped and the inhibiting protein is free. As a result, the reaction will be restrained or go towards the opposite direction. Besides, since we could change the quantity of three proteins through one signal, we can say we succeeded in equipping our device with the function of amplifying the signal.</p>
+								<div class="note">
+									<img src="images/ideapic4.png" alt="Left: The tweezer in the middle is closed and it captures the inhibiting protein, at the same time tweezers A open, releasing the two promoting proteins. Right: Two tweezers A are closed and capture the promoting proteins and tweezer B releases the inhibiting protein" />
+									<p>Figure 4.Left: The tweezer in the middle is closed and it captures the inhibiting protein, at the same time tweezers A open, releasing the two promoting proteins. </p> 
+									<p>Right: Two tweezers A are closed and capture the promoting proteins and tweezer B releases the inhibiting protein</p>
+								</div>
+								<p>In our project, we choose thrombin and hirudin as our “Pair of Proteins”, and they can cooperatively make great contributions to blood coagulation. When someone is bleeding, especially for those who are bleeding heavily, our device can help to coagulate blood by releasing thrombin and capturing hirudin, at the same time enhance the velocity of blood coagulation to a great extent. In a word, we just want to help human beings live a better life with our metabolism-regulating device. </p>
+								<div class="note">
+									<img src="images/ideapic5.png" alt="The Vulcan salute gesture and Nanofingers are combined, and we do hope our device can bring the best wishes to the whole world." />
+									<p>Figure 5.The Vulcan salute gesture and Nanofingers are combined, and we do hope our device can bring the best wishes to the whole world.</p>
+								</div>
+								<p>Finally, for one of the conformations is like the Vulcan salute gesture, may the best wishes to you, live long and prosper!</p>
+								
+								<div class="reference1">
+									<h1>References</h1>
+								</div>	
+								<div class="reference2">
+									<p>Reversible Regulation of Protein Binding Affinity by a DNA MachineChao Zhou, Zhongqiang Yang, and Dongsheng Liu*</p>
+								</div>
+								<div class="totop"><a href="#top1" target="_self"><img src="images/totop.png"></a></div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				
+		</div><!-- /content -->
+
+	</div>
+	</div>
+	<!-- /container -->
+
+</div>
+
+	<div id="big">
+		<button id="mm-menu-toggle" class="mm-menu-toggle"></button>
+		<div id="small"><p>M</p><p id="ssse">E</p><p>N</p><p>U</p></div>
+
+	</div>
+	<nav id="mm-menu" class="mm-menu">
+	  <div class="mm-menu__header">
+	    <h2 class="mm-menu__title"></h2><div style="position:absolute;right:45px;top:-10px;"><img src="images/logo2.png"></div>
+	  </div>
+	  <ul class="mm-menu__items">
+	  	<li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"></span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Home</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page1.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Idea</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page2.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Project</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Experiment</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page5.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Discussion</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page6.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Team</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav><!-- /nav -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/vendors/trianglify.min.js"></script>
+	<script type="text/javascript" src="js/vendors/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="js/vendors/cash.min.js"></script>
+	<script type="text/javascript" src="js/Card-polygon.js"></script>
+	<script type="text/javascript" src="js/demo-3.js"></script>
+	<script src="js/production/materialMenu.min.js"></script>
+
+	
+	
+	<script>
+	  var menu = new Menu;
+	</script>
+
+</body>
+</html>

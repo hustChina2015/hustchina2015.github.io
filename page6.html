@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Card Expansion Effect - Demo 3</title>
+<meta name="description" content="Card Expansion Effect with SVG clipPath" />
+<meta name="keywords" content="clipPath, svg, effect, layout, expansion, images, grid, polygon" />
+<meta name="author" content="Claudio Calautti for Codrops" />
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+<!--必要样式-->
+<link rel="stylesheet" href="css/styleformenu.css">
+<link rel="Stylesheet" type="text/css" href="css/xo.css" />
+<link rel="stylesheet" type="text/css" href="css/card.css" />
+<link rel="stylesheet" type="text/css" href="css/pattern.css" />
+
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script>
+if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+	var root = document.getElementsByTagName('html')[0];
+	root.setAttribute('class', 'ff');
+};
+</script>
+</head>
+
+<body class="demo-3">
+	<div id="wrapper" class="wrapper">
+	<div id="headline1">
+		
+	</div>
+	<header>IDEA</header>
+	<div class="container">
+
+		<div class="content">
+			<!-- trianglify pattern container -->
+			<div class="pattern pattern--hidden"></div>
+			<!-- cards -->
+			<div class="wrapper">
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath2">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="images/b.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top1"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title leaguegothic txtshadowblackL f3 txtcenter">Background</h2>
+							</div>
+							<div class="card__copy">
+								<div class="leaguegothic txtshadowblackL f2 txtdecoration1"></div>
+								<p>In the theory of traditional Chinese medicine, “yin” and “yang” is thought of the origin of the world, and only when they are kept in a good balance, can the organism work well. Metabolism in our human body, such as signal conduction, cell apoptosis and immune reactions, needs to be strictly controlled and protein enzymes have been known to play an important role among these processes. </p>
+								<div class="note">
+									<img src="images/ideapic1.jpg" alt="The balance of “yin” and “yang”">
+									<p>Figure 1.The balance of “yin” and “yang”</p>
+								</div>
+								<p>In fact, we might as well regard the different kinds of protein enzymes as “yin” and “yang”, since proteins can be categorized into two types, promotor and inhibitor, based on their function in a specific reaction. </p>
+								<div class="leaguegothic txtshadowblackL f25 txtdecoration1 txtcenter">Motivation</div>
+								<p>The balance of the proteins in our body can be regulated by ourselves smartly; however, it can also be easily broken by unexpected changes inside or outside, which is difficult to recover to normal state automatically, especially for the old. So we hope to create a device to help the broken metabolism recover to the stable stage quickly by regulating the two kinds of proteins.</p>
+								<div class="note">
+									<img src="images/ideapic2.png" alt="Reversible regulation of protein binding affinity by a DNA machine">
+									<p>Figure 2. Reversible regulation of protein binding affinity by a DNA machine</p>
+								</div>
+							</div>
+							<div class="totop">
+								<a href="#top1" target="_self"><img src="images/jupai3.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				
+
+				<div class="card">
+					<div class="card__container card__container--closed">
+						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
+							<defs>
+								<clipPath id="clipPath4">
+									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
+								</clipPath>
+							</defs>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="images/d.jpg"></image>
+						</svg>
+						<div class="card__content">
+							<a name="top" id="top3"></a>
+							<div class="card__btn-close"><img src="images/back.png"></div>
+							<div class="card__caption">
+								<h1 class="card__title leaguegothic txtshadowblackL f3 txtcenter">Project Idea</h2>
+							</div>
+							<div class="card__copy">
+								<!--<div class="meta">
+									<img class="meta__avatar" src="images/authors/4.png" alt="author04" />
+									<span class="meta__author">Lena Bestofos</span>
+									<span class="meta__date">06/14/2015</span>
+								</div>-->
+								<div class="leaguegothic txtshadowblackL f2"></div>
+								<p>Generally speaking, we have got two ways to regulate the proteins, one by changing the activity, the other changing the quantity, and we choose the second. When searching for references, we are inspired by a tweezer-like machine, which catches the protein with the aptamers on it. It means that tweezers will capture the target protein when it is closed, and release the protein when open.</p>
+								<p>However, we are not satisfied that only one protein could be regulated. Combining three tweezers together, our newborn device can be much more powerful.</p>
+								<div class="note">
+									<img src="images/ideapic3.png" alt="The combination of three tweezers（Two blue tweezers are called tweezer A, and the green tweezer B ）" />
+									<p>Figure 3. The combination of three tweezers（Two blue tweezers are called tweezer A, and the green tweezer B ）</p>
+								</div>
+								<p>First, we bring the thought “Pair of Proteins” into our device, one is the promoting protein and the other is the inhibiting protein in a same biochemical reaction. Then we categorize the three tweezers into two kinds, two same tweezers (named A) on the either side of the platform and one tweezer (named B) in the middle. The aptamers on tweezers A only match the promoting protein and tweezer B can only bind the inhibiting protein. We are able to keep A and B always in different conformation, that is when two tweezers A open, they will release the two promoting proteins and make B close, capturing one inhibiting protein, hence the biochemical reaction is accelerated. When we want to stop the reaction, just make A close and B open by adding a signal, then two promoting protein will be grasped and the inhibiting protein is free. As a result, the reaction will be restrained or go towards an opposite direction. Besides, via the case we change the quantity of three proteins through one signal, we can say we succeeded in equipping our device with the function of amplifying the signal.</p>
+								<div class="note">
+									<img src="images/ideapic4.png" alt="Left: The tweezer in the middle is closed and it captures the inhibiting protein, at the same time tweezers A open, releasing the two promoting proteins. Right: Two tweezers A are closed and capture the promoting proteins and tweezer B releases the inhibiting protein" />
+									<p>Figure 4. Left: The tweezer in the middle is closed and it captures the inhibiting protein, at the same time tweezers A open, releasing the two promoting proteins. Right: Two tweezers A are closed and capture the promoting proteins and tweezer B releases the inhibiting protein</p>
+								</div>
+								<p>In our project, we choose thrombin and hirudin as our “Pair of Proteins”, and they can cooperatively make great contributions to blood coagulation. When someone is bleeding, especially for those who are bleeding heavily, our device can help to coagulate blood by releasing thrombin and capturing hirudin, at the same time enhance the velocity of blood coagulation to a great extent. In a word, we just want to help human beings live a better life with our metabolism-regulating device.</p>
+								<div class="note">
+									<img src="images/ideapic5.png" alt="The Vulcan salute gesture and Nanofingers are combined, and we do hope our device can bring the best wishes to the whole world." />
+									<p>Figure 5. The Vulcan salute gesture and Nanofingers are combined, and we do hope our device can bring the best wishes to the whole world.</p>
+								</div>
+								
+								<div class="reference1 txtshadowblackL">
+									<h1>References</h1>
+								</div>	
+								<div class="reference2">
+									<p>[1] Reversible Regulation of Protein Binding Affinity by a DNA MachineChao Zhou, Zhongqiang Yang, and Dongsheng Liu* </p>
+								</div>
+
+							</div>
+
+							<div class="totop">
+								<a href="#top3" target="_self"><img src="images/jupai3.png"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+		</div><!-- /content -->
+
+	</div>
+	</div>
+	<!-- /container -->
+
+</div>
+
+	<div id="big">
+		<button id="mm-menu-toggle" class="mm-menu-toggle"></button>
+		<div id="small"><p>M</p><p id="ssse">E</p><p>N</p><p>U</p></div>
+
+	</div>
+	<nav id="mm-menu" class="mm-menu">
+	  <div class="mm-menu__header">
+	    <h2 class="mm-menu__title"></h2>
+	  </div>
+	  <ul class="mm-menu__items">
+	  	<li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"></span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="index.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Home</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page1.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Idea</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page2.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Project</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Experiment</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page5.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Discussion</span>
+	      </a>
+	    </li>
+	    <li class="mm-menu__item">
+	      <a class="mm-menu__link" href="page6.html">
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Team</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav><!-- /nav -->
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/vendors/trianglify.min.js"></script>
+	<script type="text/javascript" src="js/vendors/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/vendors/ScrollToPlugin.min.js"></script>
+	<script type="text/javascript" src="js/vendors/cash.min.js"></script>
+	<script type="text/javascript" src="js/Card-polygon.js"></script>
+	<script type="text/javascript" src="js/demo-3.js"></script>
+	<script src="js/production/materialMenu.min.js"></script>
+
+	
+	
+	<script>
+	  var menu = new Menu;
+	</script>
+
+</body>
+</html>
