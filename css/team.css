@@ -56,3 +56,35 @@
 	float: right;
 	margin-left: 40px;
 }
+
+.ttleft,.ttright {
+	width: 340px;
+	padding: 0px;
+}
+
+.ttleft{
+	margin: 0px;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.ttright {
+	margin: 0px;
+	margin-top: 50px;
+	float: right;
+}
+
+.ttleft_in,.ttright_in {
+	width: 100px;
+	margin: 50px 0px 0px 0px;
+}
+
+.ttleft_in {
+	margin: 0px 0px 0px 30px;
+	float: right;
+}
+
+.ttright_in {
+	margin: 0px 30px 0px 0px;
+	float: left;
+}

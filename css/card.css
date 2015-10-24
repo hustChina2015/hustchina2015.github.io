@@ -253,8 +253,7 @@ p {
 #littlenav .lnav2 {
 	width: 100%;
     padding: 0;
-    margin: 0 0 7px 0;
-    font-size: 10px;
+    margin: 7px 0 0 0;
     font-weight: bold;
     color: ;
 }
@@ -267,7 +266,7 @@ p {
 	width: 100%;
     padding:0px 0px 0px 20px;
     margin: 0;
-    font-size: 7px;
+    font-size: 16px;
     font-weight: normal;
     color: #ae0e0e;
     ;
@@ -276,10 +275,6 @@ p {
 	margin: auto;
 	padding: auto;
 }
-
-
-
-
 
 
 
