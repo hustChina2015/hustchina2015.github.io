@@ -1,6 +1,6 @@
 /* ----- RESET ----- */
 *{outline: 0;padding: 0;margin: 0;border: 0;}
-body,p,ul,ol,dl,textarea,input { font-size:18px;}
+body,p,ul,ol,dl,textarea,input { font-size:23px;}
 
 /* ----- FONTS ----- */
 @font-face { font-family: 'LeagueGothic';  src:url('assets/LeagueGothic.otf'); }
@@ -35,6 +35,7 @@ body,p,ul,ol,dl,textarea,input { font-size:18px;}
 /* ----- TEXT ----- */
 .f0 {font-size:15px;}
 .f1 {font-size:25px;}
+.f15{font-size:30px;}
 .f2 {font-size:50px;}
 .f25{font-size:80px;}
 .f3 {font-size:100px;}

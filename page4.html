@@ -48,11 +48,11 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 					<div class="card__container card__container--closed">
 						<svg class="card__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 500" preserveAspectRatio="xMidYMid slice">
 							<defs>
-								<clipPath id="clipPath2">
+								<clipPath id="clipPath4">
 									<polygon class="clip" points="0,500 0,0 1920,0 1920,500"></polygon>
 								</clipPath>
 							</defs>
-							<image clip-path="url(#clipPath2)" width="1920" height="500" xlink:href="images/e1.jpg"></image>
+							<image clip-path="url(#clipPath4)" width="1920" height="500" xlink:href="images/e1.jpg"></image>
 						</svg>
 						<div class="card__content">
 							<a name="top" id="top1"></a>
@@ -61,7 +61,8 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 								<h1 class="card__title txtcenter">Structure</h2>
 							</div>
 							<div class="card__copy">
-								<p style="margin:0px;text-indent:0;font-size:30px;font-weight:600;">Content</p>
+								<div class="card__copy">
+								<p style="margin:0px;text-indent:0;font-size:30px;font-weight:600;">Contents</p>
 								<div id="littlenav" class="center">
 									<ul class="center">
 										<li class="lnav2"><a href="#The structure of our device">1 The structure of our device</a></li>
@@ -89,17 +90,18 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 								<p>The results are shown is Figure 2, which proves the oriented conformational change of tweezer B of which the size is about 300bp. The close of tweezer B gives it a more compacted structure which accounts for the faster migration speed in the electrical field. Therefore, we can conclude that the fuel strands successfully remove the antifuel strands with a strand-displacement reaction and change the form of tweezer B from open to closed. Different temperature (37℃ and 42℃) is adopted to find an optimizing condition for strand-displacement (lane3 and lane4) and the image shows that the reaction can proceed without obvious difference in efficiency.</p>
 
 								<div class="f1" id="The observation of Nanofingers">1.3	The observation of Nanofingers</div>
-								<div class="note">
+								<div class="note" style="margin-left:0px;width:900px;">
 									<img src="images/resultpic3.png" alt="" />
-									<p>Figure 3. AFM and model images of Nanofingers. a , b) Wide field image of successfully assembled Nanofingers with a high yield. c) A magnified image of Nanofingers framed with white line in image b. d) Height profile, curve between the vertical line indicates the height of Nanofingers framed in image b. e) A model image corresponding to the real structure illustrated in image c to give a vivid cognition of the successfully assembled Nanofingers</p>
+									<p class="txtcenter">Figure 3. AFM and model images of Nanofingers. a , b) Wide field image of successfully assembled Nanofingers with a high yield. c) A magnified image of Nanofingers framed with white line in image b. d) Height profile, curve between the vertical line indicates the height of Nanofingers framed in image b. e) A model image corresponding to the real structure illustrated in image c to give a vivid cognition of the successfully assembled Nanofingers</p>
 								</div>
 								<p>The intact structure of Nanofingers is successfully folded after the origami experiment. Followed with a purification and concentration, we can finally see Nanofingers under AFM with a high yield. A magnified image of Nanofingers shown in figure 3c is corresponded to the model image in figure 3e, so that we can have a clearer understanding of its structure. In figure 3d, a height profile is given suggesting that Nanofingers measures about 15 nm in height, approaching our design 13nm, which confirms the successful folding. However, it is noticeable that the position of tweezer B (middle tweezer) differs from what we have designed in cadnano. It turns over outward the platform accounting for the low binding efficiency of the linker strand between the platform and the bottom of tweezer B. Yet it doesn’t affect the function of the whole device which can also be proved by the following experimental results.</p>
 								<div class="f1 fw9" id="FRET detection of Nanofingers">2.	FRET detection of Nanofingers</div>
 								<p>We characterize the conformational change of Nanofingers using FRET between Cy3/Cy5 dye pairs.</p>
 								<div class="f1" id="Linkage of tweezers and platform">2.1 Fluorescence imaging of the real-time FRET</div>
 								<p>By sequentially scanning the specimen with a fixed excitation wavelength (550nm, excitation wavelength for Cy3) and detecting the fluorescence in two channels, the emitted light of Cy3 and Cy5 can be clearly exhibited on images, showing us whether FRET occurs. When FRET occurs, Cy5 is excited showing a red color while sometimes there may exists a very weak green light probably caused by spectral bleed-through. In comparison, when FRET doesn’t occur, the emission light of Cy3 and Cy5 can both be detected at the same point and we can see yellow overlap spots in the merged image. We number yellow spots in FRET image and non-FRET image and give an evaluation on the difference between the two different status.</p>
+								<div class="note"  style="margin-left:0px;"><img src="images/resultpic4.png" alt="" /></div>
 								<div class="note">
-									<img src="images/resultpic4.png" alt="" /><img src="images/resultpic4_2.png" alt="" />
+									<img src="images/resultpic4_2.png" alt="" />
 									<p>Figure 4. a) Two different conformation of Nanofingers, corresponding to FRET status(top) and non-FRET status(bottom) respectively. b) Images taken by fluorescence microscope. The top three images are taken from the same sample with FRET effect while the three images in the bottom are taken from the sample without FRET effect. The yellow spots (non-FRET Nanofingers) are marked and numbered in the image. c) Histogram displaying the relative non-FRET probability of different Nanofingers status.</p>
 								</div>
 								<p>As shown in Figure 4b, in the three images (top) of the first sample, red light takes advantage over green light and only one yellow spot is collected in the field of view, demonstrating high efficient FRET of Nanofingers. In contrast, when the second sample is observed, red light declines while green light is enhanced, resulting in the significant increase in the yellow spots (10 yellow spots). As shown in Figure 4c, we achieve the highly significance difference (marked on “**”) between these two samples by analysis of data with histogram. Therefore, we can draw a conclusion that an efficient conformational change takes place in Nanofingers by adding fuel strands.</p>
@@ -115,8 +117,10 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 							</div>
 
 						</div>
+						</div>
 					</div>
 				</div>
+
 
 				<div class="card">
 					<div class="card__container card__container--closed">
@@ -136,7 +140,7 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 							</div>
 							
 							<div class="card__copy">
-								<p style="margin:0px;text-indent:0;font-size:30px;font-weight:600;">Content</p>
+								<p style="margin:0px;text-indent:0;font-size:30px;font-weight:600;">Contents</p>
 								<div id="littlenav" class="center">
 									
 									<ul class="center">
@@ -225,7 +229,7 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
 	    </li>
 	    <li class="mm-menu__item">
 	      <a class="mm-menu__link" href="page4.html">
-	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Result</span>
+	        <span class="mm-menu__link-text"  style="font-size:20px;"><i class="md md-favorite"></i> Results</span>
 	      </a>
 	    </li>
 	    <li class="mm-menu__item">
